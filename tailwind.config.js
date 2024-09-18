@@ -20,6 +20,7 @@ export default {
         neutralStroke: "#E0E0E0",
         NeutralForeground2Rest: "#424242",
         NeutralForeground4Rest: "#242424",
+        NeutralStroke1Rest: "#D1D1D1",
       },
       borderRadius: {
         small: "4px",

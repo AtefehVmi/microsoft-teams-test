@@ -3,9 +3,14 @@ import EndContent from "./EndContent";
 
 function ToolBar() {
   return (
-    <div>
-      <StartContent />
-      <EndContent />
+    <div className=" flex w-[1298px] h-[48px]  border-b border-neutralStroke">
+      <div className="py-[8px] pl-[20px] ">
+        <StartContent />
+      </div>
+
+      <div className="w-[266px] h-[32px]">
+        <EndContent />
+      </div>
     </div>
   );
 }
