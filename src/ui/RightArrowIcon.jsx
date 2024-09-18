@@ -1,6 +1,6 @@
 function RightArrowIcon() {
   return (
-    <div>
+    <button>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -14,7 +14,7 @@ function RightArrowIcon() {
           fill="#424242"
         />
       </svg>
-    </div>
+    </button>
   );
 }
 

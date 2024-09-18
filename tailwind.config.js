@@ -17,6 +17,9 @@ export default {
         neutralForeground3: "#616161",
         neutralStrokeAlpha: "#0000000D",
         neutralForeground3Selected: "#5B5FC7",
+        neutralStroke: "#E0E0E0",
+        NeutralForeground2Rest: "#424242",
+        NeutralForeground4Rest: "#242424",
       },
       borderRadius: {
         small: "4px",
@@ -24,12 +27,17 @@ export default {
       fontSize: {
         tiny: "10px",
         small: "14px",
+        medium: "18px",
       },
       lineHeight: {
         normal: "20px",
+        big: "24px",
       },
       borderWidth: {
         1: "1px",
+      },
+      spacing: {
+        custom: "20px",
       },
     },
   },

@@ -1,6 +1,6 @@
 function ThreeDotIcon() {
   return (
-    <div className="p-[6px]">
+    <button className="p-[6px]">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"
@@ -13,7 +13,7 @@ function ThreeDotIcon() {
           fill="#424242"
         />
       </svg>
-    </div>
+    </button>
   );
 }
 
