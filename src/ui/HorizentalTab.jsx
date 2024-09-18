@@ -4,14 +4,18 @@ function HorizentalTab({ to, children, isActive = false, onClick }) {
   return (
     <li
       onClick={onClick}
-      className={`h-[52px] px-[10px] pb-[12px] pt-[14px] mx-[-8px] font-segoe text-small leading-normal not-italic flex items-start justify-center
-        ${
+      className={`h-[52px] px-[10px] pb-[12px] pt-[14px] mx-[-8px]  flex items-start justify-center`}
+    >
+      <NavLink
+        to={to}
+        className={`font-segoe text-small leading-normal not-italic ${
           isActive
             ? " text-NeutralForeground4Rest font-semibold"
             : " text-NeutralForeground2Rest  font-normal "
         }`}
-    >
-      <NavLink to={to}>{children}</NavLink>
+      >
+        {children}
+      </NavLink>
 
       {isActive && (
         <div className="bottom-0 absolute">

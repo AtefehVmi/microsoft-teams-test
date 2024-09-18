@@ -8,8 +8,8 @@ function HorizentalTabList() {
   }
 
   return (
-    <div className="w-[277px] h-[52px] ">
-      <ul className="flex items-start gap-[8px] ml-[4px]">
+    <div>
+      <ul className="flex items-start gap-[8px] ml-[4px] top-[7px]">
         <HorizentalTab
           isActive={activeTab === "/vanarsdel/home"}
           onClick={() => makeActive("/vanarsdel/home")}

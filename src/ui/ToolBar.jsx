@@ -3,7 +3,7 @@ import EndContent from "./EndContent";
 
 function ToolBar() {
   return (
-    <div className=" flex w-[1298px] h-[48px]  border-b border-neutralStroke">
+    <div className=" flex w-[1298px] h-[48px]">
       <div className="py-[8px] pl-[20px] ">
         <StartContent />
       </div>
