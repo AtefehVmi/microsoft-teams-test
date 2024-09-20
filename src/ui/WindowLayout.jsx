@@ -4,13 +4,15 @@ import TitleBar from "./TitleBar";
 
 function WindowLayout() {
   return (
-    <div className="grid grid-rows-[auto_1fr] grid-cols-[auto_1fr]">
-      <TitleBar />
+    <div className="w-[1366px] h-[1012px] rounded-[8px]">
+      <div className="grid grid-rows-[auto_1fr] grid-cols-[auto_1fr]">
+        <TitleBar />
 
-      <AppBar />
-      <main className="row-start-2 col-start-2 overflow-auto">
-        <Outlet />
-      </main>
+        <AppBar />
+        <main className="row-start-2 col-start-2 overflow-auto">
+          <Outlet />
+        </main>
+      </div>
     </div>
   );
 }

@@ -9,7 +9,7 @@ function AppBar() {
   }
 
   return (
-    <aside className="h-[752px] w-[68px] top-[48px] bg-neutralForeground2 row-start-2">
+    <aside className="h-[964px] w-[68px] top-[48px] bg-neutralForeground2 row-start-2">
       <nav>
         <ul className="flex flex-col items-center justify-center">
           <TabItem

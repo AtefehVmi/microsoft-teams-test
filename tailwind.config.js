@@ -27,18 +27,26 @@ export default {
       },
       fontSize: {
         tiny: "10px",
+        tinyx2: "12px",
         small: "14px",
         medium: "18px",
+        big: "32px",
       },
       lineHeight: {
+        small: "16px",
         normal: "20px",
         big: "24px",
+        extraBig: "40px",
       },
       borderWidth: {
         1: "1px",
       },
       spacing: {
         custom: "20px",
+      },
+      boxShadow: {
+        custom:
+          "0px 2px 4px 0px rgba(0, 0, 0, 0.14), 0px 0px 2px 0px rgba(0, 0, 0, 0.12)",
       },
     },
   },
