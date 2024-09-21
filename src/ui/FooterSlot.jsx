@@ -1,6 +1,6 @@
 function FooterSlot() {
   return (
-    <div className="h-[20px] ">
+    <div>
       <div className="w-[74px] font-normal leading-normal font-segoe text-small text-neutralForeground3Selected not-italic">
         View details
       </div>

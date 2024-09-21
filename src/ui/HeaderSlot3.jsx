@@ -1,8 +1,8 @@
 import Button from "./Button";
 
-function HeaderSlot() {
+function HeaderSlot3() {
   return (
-    <div className="flex items-start self-stretch gap-[12px] font-segoe not-italic h-[36px] mb-[16px] w-[250px] justify-between">
+    <div className="flex items-start self-stretch gap-[12px] font-segoe not-italic h-[36px] mb-[16px] w-[456px] justify-between">
       <div className="flex flex-col self-stretch">
         <span className="font-bold leading-normal text-small text-NeutralForeground4Rest">
           Card title
@@ -29,4 +29,4 @@ function HeaderSlot() {
   );
 }
 
-export default HeaderSlot;
+export default HeaderSlot3;
